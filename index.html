@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Profe Daniela – Servicios Académicos de Excelencia</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ede8df;--paper:#faf7f2;--box:#f6f2ec;--wine:#5c1a3a;--gold:#b08d4a;--text:#3a2a30;--page:#ede8df;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--page:#1a1416}}
+:root[data-theme="dark"]{--page:#1a1416}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--page);font-family:'Playfair Display',Georgia,serif;display:flex;justify-content:center;padding:clamp(8px,3vw,24px)}
+.flyer{width:100%;max-width:480px;min-width:0;background:var(--paper);border:2px solid var(--gold);outline:1px solid var(--gold);outline-offset:-8px;padding:clamp(20px,5vw,36px) clamp(14px,4vw,28px) clamp(18px,4vw,30px);text-align:center;color:var(--text)}
+.line{height:1px;background:var(--gold);margin:0 8%}
+h1{margin:18px 0 10px;font-size:2rem;line-height:1.05;color:var(--wine);font-weight:700;letter-spacing:.5px}
+.sub{font-style:italic;font-size:1.15rem;margin:14px 0 0}
+.name{font-family:'Dancing Script',cursive;font-size:3.4rem;color:var(--wine);margin:0;line-height:1.1}
+.msg{background:var(--box);border:1px solid #e3d9c7;border-radius:12px;padding:12px 14px;margin:14px 0;font-size:.95rem;line-height:1.4}
+.msg p{margin:6px 0}
+.tags{display:flex;gap:10px;margin-bottom:14px}
+.tags div{flex:1;background:#fff;color:var(--wine);border:1.5px solid var(--gold);border-radius:10px;padding:10px 6px;font-weight:700;font-size:.95rem;line-height:1.25}
+.cta{background:var(--wine);border:2px solid var(--gold);border-radius:14px;padding:16px 14px 18px;color:#fff;font-family:system-ui,sans-serif}
+.cta .tel{display:block;color:#fff;text-decoration:none;font-size:1.7rem;font-weight:700;letter-spacing:1px;padding-bottom:10px;border-bottom:1px solid var(--gold)}
+.cta ul{list-style:none;padding:0;margin:12px 0;font-weight:600;line-height:1.7}
+.cta li::before{content:"✓ ";opacity:.8}
+.btn{display:inline-block;max-width:100%;background:var(--gold);color:var(--wine);font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:1.05rem;text-decoration:none;padding:10px 22px;border-radius:8px;letter-spacing:.3px}
+.btn:active{transform:scale(.97)}
+.foot{margin:16px 0 14px;font-family:system-ui,sans-serif;font-size:.85rem;letter-spacing:.3px}
+@media (max-width:380px){
+  .flyer{padding-left:12px;padding-right:12px}
+  h1{font-size:clamp(1.55rem,8vw,2rem)}
+  .name{font-size:clamp(2.8rem,14vw,3.4rem)}
+  .tags{flex-direction:column;gap:8px}
+  .cta .tel{font-size:clamp(1.35rem,7vw,1.7rem)}
+  .btn{width:100%;padding:10px 12px;font-size:.98rem}
+}
+@media (min-width:600px){
+  .flyer{padding-top:40px;padding-bottom:34px}
+  .msg{padding:16px 18px}
+  .tags{gap:14px}
+  .tags div{padding:12px 10px}
+}
+</style>
+</head>
+<body>
+<main class="flyer">
+  <div class="line"></div>
+  <h1>SERVICIOS<br>ACADÉMICOS<br>DE EXCELENCIA</h1>
+  <div class="line" style="margin:0 4%"></div>
+  <p class="sub">Profesora de Matemáticas, Física y Química</p>
+  <p class="name">Daniela</p>
+
+  <div class="msg">
+    <p>♥ Compromiso con el aprendizaje de cada alumno.</p>
+    <p>♥ Seriedad y responsabilidad en cada clase.</p>
+    <p>♥ Vocación y pasión por enseñar, que se nota en cada explicación.</p>
+    <p>♥ Acompañamiento constante hasta lograr resultados.</p>
+  </div>
+
+  <div class="tags">
+    <div>Clases que inspiran ♥</div>
+    <div>La educación cambia el mundo ♥</div>
+  </div>
+
+  <section class="cta">
+    <a class="tel" href="tel:+543816959003">381 695-9003</a>
+    <ul>
+      <li>Turnos anticipados</li>
+      <li>Clases organizadas</li>
+      <li>Atención personalizada</li>
+    </ul>
+    <a class="btn" href="https://wa.me/5493816959003?text=Hola%20Profe%20Daniela!%20Quiero%20reservar%20una%20clase." target="_blank" rel="noopener">RESERVA TU CLASE HOY</a>
+  </section>
+
+  <p class="foot">Matemáticas • Física • Química</p>
+  <div class="line"></div>
+</main>
+</body>
+</html>
